@@ -1,0 +1,23 @@
+{
+  "name": "ring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function-utils.js",
+  "dependencies": {
+    "doorbot": "^5.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancostuij/Ring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ancostuij/Ring/issues"
+  },
+  "homepage": "https://github.com/ancostuij/Ring#readme"
+}
