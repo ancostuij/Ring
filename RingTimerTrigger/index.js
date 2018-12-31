@@ -29,7 +29,7 @@ module.exports = function (context, myTimer) {
             var ringKind = `${json[0]['kind']}`;         
             context.log (ringKind);
             // Send Ring event to EventGrid if doorbell is ringed (no motion events)
-            if(ringKind = 'ding'){
+            if(ringKind == 'ding'){
                 EmitEvent(json[0], context, (res) => {
                     context.log(`got response: ${res}`);
                     context.done();
