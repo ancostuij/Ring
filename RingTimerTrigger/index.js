@@ -36,7 +36,7 @@ module.exports = function (context, myTimer) {
                 });
             }
         } else {
-            context.log('No ring event');
+            context.log('No ding event');
             context.done();
         }
     });
